@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.ComponentModel;
 using System.Linq;
 using System.Numerics;
@@ -693,7 +694,40 @@ using System.Threading.Tasks;
 
 #region https://www.codewars.com/kata/54da5a58ea159efa38000836/train/csharp
 
-int Temp[] = { 20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5 };
-List<int> Temporary = new List<int>();
+//int[] Temp = { 20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5 };
+//Array.Sort(Temp);
+//if (Temp.Length == 1)
+//    Console.WriteLine(Temp[0]);
+
+//int Count = 0;
+//int? temporary = null;
+
+//foreach (var item in Temp)
+//{
+//    if (Count == 0)
+//    {
+//        Count++;
+//        temporary = item;
+//        continue;
+//    }
+
+//    if (item == temporary)
+//    {
+//        Count++;
+//        continue;
+//    }
+//    else
+//    {
+//        if (Count % 2 == 1)
+//        {
+//            Console.WriteLine(temporary);
+//            break;
+//        }
+//        Count = 1;
+//        temporary = item;
+//    }
+
+//}
+//Console.WriteLine(temporary);
 
 #endregion
